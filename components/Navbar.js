@@ -40,7 +40,7 @@ const Navbar = () => {
     
             <div className="fixed inset-0 overflow-hidden">
                 <div className="absolute inset-0 overflow-hidden">
-                <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full ">
                     <Transition.Child
                     as={Fragment}
                     enter="transform transition ease-in-out duration-500 sm:duration-700"
@@ -71,7 +71,7 @@ const Navbar = () => {
                             </button>
                         </div>
                         </Transition.Child>
-                        <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                        <div className="flex h-full   flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                         <div className="px-4 sm:px-6">
                            
                         </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
                             </div>
                                 
 
-                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-64">
+                            <li className="bg-custom  text-white text-center flex items-center justify-center  text-13.85 font-500 font-roboto leading-16.23 rounded-3xl w-175 h-52  mt-36">
                             SIGN UP NOW
                             
                         </li>
