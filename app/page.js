@@ -1,5 +1,6 @@
 
 import Begin from '@/components/Begin';
+import Facilities from '@/components/Facilities';
 import Navbar from '@/components/Navbar'
 import Team from '@/components/Team';
 import Image from 'next/image'
@@ -43,6 +44,8 @@ export default function Home() {
       <Begin/>
     
     <Team/>
+
+    <Facilities/>
 
     </div>
   )
