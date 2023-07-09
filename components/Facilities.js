@@ -4,11 +4,11 @@ function Facilities() {
   return (
     <div className=' justify-center items-center m-5 flex flex-col  md:mt-20 mt-[80px]'>
         <div className='items-center justify-center'>
-            <h1 className=' md:mb-5 mb-3 text-center font-bison font-bold leading-[42px] md:text-[60px] text-[42px]'>FACILITIES AND OFFERINGS</h1>
-            <p className=' md:w-[1200px] text-center font-roboto font-400 text-[18px] mt-5 md:mt-7'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts.
+            <h1 className=' md:mb-5 mb-3 text-center font-bison font-bold leading-[42px] md:text-[42px] text-[42px]'>FACILITIES AND OFFERINGS</h1>
+            <p className=' md:w-[1200px]  text-center font-roboto font-400 text-[18px] mt-5 md:mt-7'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts.
                  Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
         </div>
-        <div className=' flex space-x-2 flex-row md:m-16 md:ml-42 ml-[30px] mt-5 flex-wrap md:flex-nowrap md:w-[1350px] w-[350px]  md:justify-evenly '>
+        <div className=' flex space-x-3 flex-row md:m-16 md:ml-42 ml-[30px] mt-5 flex-wrap md:flex-nowrap md:w-[1350px] w-[350px]  md:justify-evenly '>
        {/* <div className='md:w-[245px]  w-[153px] h-[263px]  md:h-[400px] bg-green-500 rounded-[16px]   '>
 
        </div> */}
@@ -19,7 +19,7 @@ function Facilities() {
        {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16  md:mt-48 md:h-[400px] bg-black rounded-[16px] justify-center'>
 
        </div> */}
-        <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16 ml md:mt-48 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/gymimg1.jpg" alt="gym photo" width={153} height={300}>
+        <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16  md:mt-48 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/gymimg1.jpg" alt="gym photo" width={153} height={300}>
        
        </Image>
 
@@ -27,14 +27,14 @@ function Facilities() {
        {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5 bg-blue-500 rounded-[16px] justify-center'>
 
         </div> */}
-         <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16  md:h-[400px] mt-5  rounded-[16px] justify-center border-2" src="/images/swimmingimg.jpg" alt="swimming photo" width={153} height={300}>
+         <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5  rounded-[16px] justify-center border-2" src="/images/swimmingimg.jpg" alt="swimming photo" width={153} height={300}>
 
           </Image>
 
         {/* <div className='md:w-[245px] w-[153px] h-[263px]  md:ml-16 md:mt-48 mt-5 md:h-[400px] bg-orange-600 rounded-[16px] justify-center'>
 
         </div> */}
-        <Image className="md:w-[245px] w-[153px] h-[263px] ml-4 md:ml-16 md:mt-48 mt-5 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/squashimg.jpg" alt="gym photo" width={153} height={300}>
+        <Image className="md:w-[245px] w-[153px] h-[263px]  md:ml-16 md:mt-48 mt-5 md:h-[400px]  rounded-[16px]  border-2" src="/images/squashimg.jpg" alt="squash photo" width={153} height={300}>
 
         </Image>
 
