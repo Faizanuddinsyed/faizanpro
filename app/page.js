@@ -45,7 +45,7 @@ export default function Home() {
     
     <Team/>
 
-    <Facilities/>
+    <Facilities/> 
 
     </div>
   )
