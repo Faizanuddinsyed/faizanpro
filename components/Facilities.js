@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Facilities() {
   return (
@@ -9,20 +10,34 @@ function Facilities() {
                  Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
         </div>
         <div className=' flex flex-row md:m-16 md:ml-42 ml-2 flex-wrap '>
-       <div className='md:w-[245px]  w-[153px] h-[263px]  md:h-[400px] bg-green-500 rounded-[16px] justify-center '>
+       {/* <div className='md:w-[245px]  w-[153px] h-[263px]  md:h-[400px] bg-green-500 rounded-[16px] justify-center '>
+        
+       </div> */}
+        <Image className="md:w-[245px]  w-[153px] h-[263px]  md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/badminton.jpg"  alt="gym photo" width={153} height={300}>
 
-       </div>
-       <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 ml-8 md:mt-48 md:h-[400px] bg-black rounded-[16px] justify-center'>
+</Image>
 
-       </div>
 
-       <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5 bg-blue-500 rounded-[16px] justify-center'>
+       {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 ml-8 md:mt-48 md:h-[400px] bg-black rounded-[16px] justify-center'> */}
+       <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16 ml-8 md:mt-48 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/gymimg1.jpg" alt="gym photo" width={153} height={300}>
 
-        </div>
+</Image>
+       {/* </div> */}
 
-        <div className='md:w-[245px] w-[153px] h-[263px] ml-8 md:ml-16 md:mt-48 mt-5 md:h-[400px] bg-orange-600 rounded-[16px] justify-center'>
+       {/* <div className='md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5 bg-blue-500 rounded-[16px] justify-center'> */}
+       <Image className="md:w-[245px] w-[153px] h-[263px] md:ml-16 md:h-[400px] mt-5  rounded-[16px] justify-center border-2" src="/images/swimmingimg.jpg" alt="gym photo" width={153} height={300}>
 
-        </div>
+</Image>
+
+        {/* </div> */}
+
+        {/* <div className='md:w-[245px] w-[153px] h-[263px] ml-8 md:ml-16 md:mt-48 mt-5 md:h-[400px] bg-orange-600 rounded-[16px] justify-center'>
+
+        </div> */}
+
+<Image className="md:w-[245px] w-[153px] h-[263px] ml-8 md:ml-16 md:mt-48 mt-5 md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/squashimg.jpg" alt="gym photo" width={153} height={300}>
+
+</Image>
 
        
        </div>
