@@ -8,11 +8,11 @@ function Facilities() {
             <p className=' md:w-[1200px]  text-center font-roboto font-400 text-[18px] mt-5 md:mt-7'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts.
                  Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
         </div>
-        <div className=' flex space-x-3 flex-row md:m-16 md:ml-42 ml-[30px] mt-5 flex-wrap md:flex-nowrap md:w-[1350px] w-[350px]  md:justify-evenly '>
+        <div className=' flex space-x-3 flex-row md:m-16 md:ml-42 ml-[10px] mt-5 flex-wrap md:flex-nowrap md:w-[1350px] w-[350px]  md:justify-evenly '>
        {/* <div className='md:w-[245px]  w-[153px] h-[263px]  md:h-[400px] bg-green-500 rounded-[16px]   '>
 
        </div> */}
-           <Image className="md:w-[245px]  w-[153px] h-[263px]  md:h-[400px]  rounded-[16px] justify-center border-2" src="/images/badminton.jpg"  alt="gym photo" width={153} height={300} >
+           <Image className="md:w-[245px]  w-[153px] h-[263px]  md:h-[400px]  rounded-[16px] justify-center border-2 ml-3" src="/images/badminton.jpg"  alt="gym photo" width={153} height={300} >
 
           </Image>  
 
