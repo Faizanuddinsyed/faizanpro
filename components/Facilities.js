@@ -12,16 +12,24 @@
     
     <div class="grid grid-cols-2 gap-x-2 gap-y-2 md:grid-cols-4   justify-items-center m-7 ">
   <div class="lg:row-span-4">
+  <h1 className='md:hidden lg:hidden text-[18px] font-700'>BADMINTON</h1>
   <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/badminton.jpg"  width={153} height={263}></Image>
+  <h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1 '>BADMINTON</h1>
   </div>
   <div class="lg:row-span-4">
+  <h1 className='md:hidden lg:hidden relative ml-[100px] text-[18px] font-700'>GYM</h1>
+    <h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700'>GYM</h1>
   <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/gymimg1.jpg"  width={153} height={263}></Image>
   </div>
   <div class="lg:row-span-4">
   <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl ' src= "/images/swimmingimg.jpg"  width={153} height={263}></Image>
+  <h1 className='hidden md:block lg:block text-[20px] font-700 md:mt-1'>SWIMMING</h1>
+  <h1 className='md:hidden lg:hidden text-[18px] font-700'>SWIMMING</h1>
   </div>
   <div class="lg:row-span-4">
+  <h1 className='hidden md:block lg:block lg:relative md:relative  lg:top-[160px] md:top-[140px] text-[20px] font-700'>SQUASH</h1>
   <Image className='lg:w-[245px] lg:h-[421px] w-[153px] h-[263px] rounded-2xl lg:mt-40 md:mt-36 ' src= "/images/squashimg3.jpg"  width={153} height={263}></Image>
+  <h1 className='md:hidden lg:hidden relative  text-[18px] ml-[70px] font-700'>SQUASH</h1>
   </div>
 </div>
 
