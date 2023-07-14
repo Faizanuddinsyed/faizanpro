@@ -4,8 +4,9 @@ import Image from 'next/image'
 function Vision() {
   return (
     <div>
+      <div className="bg-no-repeat bg-center bg-cover lg:w-full lg:h-[835px] md:h-[800px] w-full h-[398px] blur-  bg-[url('../public/background2.jpeg')]">
       <div className='flex flex-col items-center justify-center w-full lg:mb-[80px]'>
-        <p className='text-[14px] lg:text-[#0479CE] md:text-[#0479CE] text-white bg-[#FB491D] md:bg-transparent lg:p-0 md:p-0 p-3 rounded-3xl lg:bg-transparent text-center font-jost lg:w-[444px] md:w-[400px] w-[262px] uppercase lg:mb-0 md:mb-0 mb-2'>Welcome to Heartfulness International Sports Center</p>
+        <p className='text-[14px] lg:text-[#0479CE] md:text-[#0479CE] text-white bg-[#FB491D] md:bg-transparent lg:p-0 md:p-0 p-3 rounded-3xl lg:bg-transparent text-center font-jost lg:w-[444px] md:w-[400px] w-[262px] uppercase lg:mb-0 md:mb-0 mb-2 mt-40'>Welcome to Heartfulness International Sports Center</p>
         <div className='flex flex-col items-center justify-center w-[315px] h-[374px] lg:bg-transparent md:bg-transparent bg-blue-50 rounded-[40px]'>
           <h1 className='hidden lg:block md:block lg:text-[40px] text-[30px] text-center lg:w-[718px] md:w-[600px] font-bold leading-[40px] uppercase w-[262px] lg:mt-[-90px] md:mt-[-90px] text-black'>Empowering Youth through<br></br>
             Sports Excellence</h1>
@@ -32,6 +33,19 @@ function Vision() {
             Khelo India, FIT India, and the Pullela Gopichand Badminton Academy.</p>
         </div>
 
+      </div>
+
+      <div className='lg:w-full lg:h-[488px] lg:mt-[-150px] md:mt-[-140px] mt-[-120px] md:h-[588px] w-full h-[790px] border-2 flex flex-col items-center justify-center lg:bg-[#0479CE] bg-[#FB491D]'>
+        <h1 className='text-center font-bison lg:w-[525px] w-[300px] lg:mb-0 md:mt-[10px] mt-[150px] lg:text-[40px] text-[30px] font-500 uppercase text-white'>Inauguration and Location</h1>
+        <p className='text-center lg:w-[1234px] md:w-[700px] w-[315px] font-poppins text-[16px]lg:p-0  text-white mt-3'>HISC was inaugurated on 26th February 2023 at Kanha Shanti Vanam,
+           a serene location known for holistic well-being and home to the world's largest meditation center.
+            The inauguration ceremony was graced by the presence of Shri Shri Anurag Thakur -
+             Union Minister for Information & Broadcasting and Youth Affairs & Sports, Government of India;
+              Shri Srinivas Goud - Hon'ble Minister of Prohibition & Excise, Sports & Youth Services,
+               Tourism & Culture and Archaeology of Telangana; Shri Pullela Gopichand - ace Indian Badminton Coach, 
+               and Shri Kamlesh Patel ‘Daaji’ – Guide of Heartfulness Meditation Worldwide and President of Shri Ram Chandra Mission.</p>
+
+      </div>
       </div>
 
 

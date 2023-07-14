@@ -4,7 +4,7 @@
     function Facilities() {
       return (
         <div>
-    <div className='w-full text-center lg:mt-0 md:mt-0 mt-20'>
+    <div className='w-full text-center lg:mt-[400px] md:mt-[600px] mt-[1500px]'>
       <h1 className='font-bold lg:text-[42px] text-[30px] font-bison leading-8 p-3'>FACILITIES AND OFFERINGS</h1>
        <p className='lg:pl-20 lg:pr-20 pl-10 pr-10 lg:mt-2 md:mt-2 font-roboto text-[16px] lg:text-[18px]'>Spanning over 54,680 square feet, the Heartfulness International Sports Center offers state-of-the-art infrastructure to cater to various sports enthusiasts. 
         Our facilities include: 14 badminton courts, 3 squash courts, 25-meter swimming pool & Gym and Fitness center</p>
