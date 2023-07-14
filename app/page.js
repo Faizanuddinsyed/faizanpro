@@ -3,6 +3,7 @@ import Begin from '@/components/Begin';
 import Facilities from '@/components/Facilities';
 import Navbar from '@/components/Navbar'
 import Team from '@/components/Team';
+import Vision from '@/components/Vision';
 import Image from 'next/image'
 import { FaPlay } from 'react-icons/fa';
 
@@ -47,6 +48,8 @@ export default function Home() {
       <Begin/>
     
     <Team/>
+
+    <Vision/>
 
     <Facilities/> 
 
